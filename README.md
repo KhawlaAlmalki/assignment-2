@@ -55,5 +55,5 @@ The site presents my background, projects, and achievements in a **modern, respo
 ## 🚀 Live Deployment
 You can explore the live version of the website here:
 
-  🔗 [https://khawlaalmalki.github.io/assignment-1/](https://khawlaalmalki.github.io/assignment-2/)
+  🔗 [https://khawlaalmalki.github.io/assignment-2/](https://khawlaalmalki.github.io/assignment-2/)
 
