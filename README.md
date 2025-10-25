@@ -10,7 +10,7 @@ The site presents my background, projects, and achievements in a **modern, respo
 
 ## ✨ Features
 
-### 🧱 Core (Stage 1)
+### 🧱 Core 
 - **About Me** → Short personal introduction with profile image and highlights.  
 - **Projects** → Portfolio grid with titles, descriptions, and images.  
 - **Contact** → Front-end form with Name, Email, and Message.  
@@ -18,7 +18,7 @@ The site presents my background, projects, and achievements in a **modern, respo
 - **Dark Mode** → System-aware theme toggle with persistent preference.  
 - **Responsive Layout** → Mobile-first design using CSS Flexbox and Grid.  
 
-### ⚙️ Enhancements (Stage 2 & 3)
+### ⚙️ Enhancements 
 - **Interactive Projects Section** → Real-time search, filter, and sort without reloads.  
 - **Experience Collapse & Memory** → Expand/collapse timeline items with saved state using `localStorage`.  
 - **Contact Form Memory** → Automatically remembers name and email between visits.  
