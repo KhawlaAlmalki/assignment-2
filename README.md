@@ -38,7 +38,7 @@ The site presents my background, projects, and achievements in a **modern, respo
    git clone https://github.com/KhawlaAlmalki/assignment-2
 4. Navigate into the project folder:
    ```bash
-   cd assignment-1
+   cd assignment-2
 5. Open index.html in your browser
    
    No additional setup is required since this is a static website.
