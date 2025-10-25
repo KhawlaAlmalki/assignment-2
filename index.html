@@ -190,11 +190,31 @@
 <section id="projects">
     <div class="container">
         <h2>Projects</h2>
+        <!-- Controls: Search + Filter + Sort -->
+        <div class="controls" aria-label="Project controls">
+            <input id="searchInput" type="search" placeholder="Search projects..." aria-label="Search projects" />
+            <select id="filterSelect" aria-label="Filter by category">
+                <option value="all">All categories</option>
+                <option value="event">Event Ops</option>
+                <option value="code">Low-Code</option>
+                <option value="culture">Culture</option>
+            </select>
+            <select id="sortSelect" aria-label="Sort projects">
+                <option value="date-desc">Newest</option>
+                <option value="date-asc">Oldest</option>
+                <option value="title-asc">A → Z</option>
+                <option value="title-desc">Z → A</option>
+            </select>
+        </div>
+
+        <p id="resultsSummary" class="muted"></p>
+
         <div class="grid projects">
 
             <!-- Project 1: Solution Hackathon -->
-            <div class="p-card reveal">
-                <div class="p-ico">🧭</div>
+            <div class="p-card reveal" data-category="event" data-date="2024-03-01">
+
+                        <div class="p-ico">🧭</div>
                 <div>
                     <!-- Project Image Placeholder -->
                     <img src="https://placehold.co/400x300/000000/ffffff?text=Solution+Hackathon" alt="Solution Hackathon">
@@ -209,8 +229,9 @@
             </div>
 
             <!-- Project 2: Dorm Attendance Solution -->
-            <div class="p-card reveal">
-                <div class="p-ico">🏅</div>
+                <div class="p-card reveal" data-category="code" data-date="2024-01-15">
+
+                    <div class="p-ico">🏅</div>
                 <div>
                     <!-- Project Image Placeholder -->
                     <img src="https://placehold.co/400x300/000000/ffffff?text=Dorm+attendance+solution" alt="Dorm attendance solution">
@@ -224,7 +245,8 @@
             </div>
 
             <!-- Project 3: Cultural Tourism Platform -->
-            <div class="p-card reveal">
+                <div class="p-card reveal" data-category="culture" data-date="2024-04-05">
+
                 <div class="p-ico">🕌</div>
                 <div>
                     <!-- Project Image Placeholder -->
@@ -238,6 +260,10 @@
                 </div>
             </div>
         </div>
+        <div id="emptyState" class="empty" hidden>
+            <p>No projects found. Try changing search, filter, or sort.</p>
+        </div>
+
     </div>
 </section>
 
