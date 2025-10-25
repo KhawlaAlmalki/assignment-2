@@ -49,8 +49,6 @@ assignment-1/
 
 ---
 
----
-
 ## 4. Technology Stack
 - **HTML5**: Semantic structure for accessibility and SEO.
 - **CSS3**: Flexbox and Grid for responsive layouts, custom variables for color themes.
