@@ -53,7 +53,7 @@ form.addEventListener('submit', (e) => {
         return;
     }
 
-    msg.textContent = "Thanks! Your message was 'sent' (demo only).";
+    msg.textContent = "Thanks! Your message was sent.";
 
     // Save name and email for next visit (must be before reset!)
     try {
