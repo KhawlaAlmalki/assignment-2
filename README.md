@@ -1,4 +1,4 @@
-# 🌐 Portfolio Website – Assignments 1–3
+# 🌐 Portfolio Website – Assignments 2
 
 ## 📖 Project Description
 This personal portfolio website was developed as part of **Assignments 1–3** in the Web Engineering course.  
@@ -55,5 +55,5 @@ The site presents my background, projects, and achievements in a **modern, respo
 ## 🚀 Live Deployment
 You can explore the live version of the website here:
 
-  🔗 https://khawlaalmalki.github.io/assignment-1/
+  🔗 [https://khawlaalmalki.github.io/assignment-1/](https://khawlaalmalki.github.io/assignment-2/)
 
