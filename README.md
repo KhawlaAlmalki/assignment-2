@@ -35,7 +35,7 @@ The site presents my background, projects, and achievements in a **modern, respo
    cd Documents
 3. Clone or download this repository:
    ```bash
-   git clone https://github.com/KhawlaAlmalki/assignment-1
+   git clone https://github.com/KhawlaAlmalki/assignment-2
 4. Navigate into the project folder:
    ```bash
    cd assignment-1
